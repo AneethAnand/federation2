@@ -1,0 +1,12 @@
+{
+  "name": "duplicate-parallel-calls-issue",
+  "version": "1.0.0",
+  "dependencies": {
+    "@apollo/gateway": "2.0.0-alpha.1",
+    "apollo-server": "3.4.1",
+    "graphql": "15.6.1"
+  },
+  "scripts": {
+    "start": "node fed2_gateway.js"
+  }
+}

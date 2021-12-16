@@ -1,0 +1,30 @@
+type Query {
+  viewer: Viewer
+}
+
+type Viewer @key(fields: "id"){
+    id: ID! 
+    user: User 
+    viewer1: String
+    viewer2: String
+    viewer3: Boolean
+    viewer4: Boolean
+}
+
+type User @key(fields: "id"){
+    id: ID!
+    user1: String!
+    user2: Boolean!
+    user3: String
+    user4: String
+    network: Network! 
+    user5: Boolean!
+    user6: Boolean!
+    user7: String
+    user8: Boolean
+}
+
+type Network {
+    network1: String!
+    id: ID!
+}
